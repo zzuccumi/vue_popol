@@ -1,0 +1,11 @@
+<svg id="logout_black_24dp" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+  <g id="그룹_414" data-name="그룹 414">
+    <path id="패스_938" data-name="패스 938" d="M0,0H21V21H0Z" fill="none"/>
+  </g>
+  <g id="그룹_416" data-name="그룹 416" transform="translate(3 3)">
+    <g id="그룹_415" data-name="그룹 415">
+      <path id="패스_939" data-name="패스 939" d="M5,4.663h6a.93.93,0,0,0,1-.831h0A.93.93,0,0,0,11,3H5A1.86,1.86,0,0,0,3,4.663V16.3a1.86,1.86,0,0,0,2,1.663h6a.93.93,0,0,0,1-.831h0a.93.93,0,0,0-1-.831H5Z" transform="translate(-3 -3)" fill="#72787f"/>
+      <path id="패스_940" data-name="패스 940" d="M20.65,11.65,17.86,8.86a.5.5,0,0,0-.86.35V11H10a1,1,0,0,0-1,1H9a1,1,0,0,0,1,1h7v1.79a.5.5,0,0,0,.85.35l2.79-2.79A.492.492,0,0,0,20.65,11.65Z" transform="translate(-6 -4.518)" fill="#72787f"/>
+    </g>
+  </g>
+</svg>
