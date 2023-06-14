@@ -1,0 +1,9 @@
+<svg id="warning_black_24dp" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="71.375" viewBox="0 0 80 71.375">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#007aff"/>
+      <stop offset="1" stop-color="#0077cb"/>
+    </linearGradient>
+  </defs>
+  <path id="warning_black_24dp-2" data-name="warning_black_24dp" d="M10.868,75.367h63.2a8.391,8.391,0,0,0,7.26-12.59l-31.6-54.6a8.389,8.389,0,0,0-14.52,0l-31.6,54.6A8.391,8.391,0,0,0,10.868,75.367Zm31.6-29.377a4.209,4.209,0,0,1-4.2-4.2V33.4a4.2,4.2,0,1,1,8.393,0v8.393A4.209,4.209,0,0,1,42.469,45.991Zm4.2,16.787H38.272V54.384h8.393Z" transform="translate(-2.469 -3.993)" fill="url(#linear-gradient)"/>
+</svg>

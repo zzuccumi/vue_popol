@@ -4,7 +4,6 @@
 1. GIT Clone
 ```bash 
 $ mkdir {project name}
-$ git clone https://github.com/nuax79/ddo-portal.git {project name}
 ```
 2. install packages
 ```bash 

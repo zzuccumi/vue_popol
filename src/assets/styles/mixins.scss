@@ -1,0 +1,70 @@
+@import '@/assets/styles/variables.scss';
+
+@mixin btn($w, $h, $bg, $bcolor, $txtcolor) {
+  width: $w;
+  height: $h;
+  background-color: $bg;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $bcolor;
+  cursor: pointer;
+
+  span {
+    color: $txtcolor;
+  }
+}
+
+@mixin input($w, $placeholder) {
+  width: $w;
+  height: 36px;
+  font-size: 12px;
+  color: #000000;
+  background-color: $blue01;
+  padding: 0 8px;
+  border: 1px solid #afafaf;
+  border-radius: 4px;
+
+  @each $vendor in("-webkit-input-", "-moz-", "-ms-input-", "") {
+    &::#{$vendor}placeholder {
+      color: $placeholder;
+    }
+  }
+}
+
+@mixin card($border, $radius, $padding) {
+  border: $border;
+  border-radius: $radius;
+  padding: 20px;
+  background-color: #fdfdfd;
+  padding: $padding;
+}
+
+@mixin badge($w, $badge-bg) {
+  width: $w;
+  height: 29px;
+  background-color: $badge-bg;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 3px;
+
+  span {
+    font-size: 16px;
+    color: $blue01;
+    font-weight: 600;
+  }
+}

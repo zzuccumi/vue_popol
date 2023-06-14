@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="7.675" viewBox="0 0 12 7.675">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="12" height="7.675" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon_sort" clip-path="url(#clip-path)">
+    <g transform="translate(-6 -8)">
+      <g id="구성_요소_147_1" data-name="구성 요소 147 – 1" transform="translate(6 8)">
+        <path id="패스_1393" data-name="패스 1393" d="M8.909,12.858l4.328,4.328a1.664,1.664,0,0,0,2.356,0l4.328-4.328A1.676,1.676,0,0,0,18.736,10H10.079A1.671,1.671,0,0,0,8.909,12.858Z" transform="translate(-8.414 -10)" fill="#72787f"/>
+      </g>
+    </g>
+  </g>
+</svg>
