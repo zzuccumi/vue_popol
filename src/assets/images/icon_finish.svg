@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76" height="76" viewBox="0 0 76 76">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#007aff"/>
-      <stop offset="1" stop-color="#0077cb"/>
-    </linearGradient>
-  </defs>
-  <path id="패스_1396" data-name="패스 1396" d="M40,2A38,38,0,1,0,78,40,38.014,38.014,0,0,0,40,2ZM29.7,56.3,16.06,42.66A3.789,3.789,0,0,1,21.418,37.3L32.4,48.246,58.544,22.1A3.789,3.789,0,1,1,63.9,27.46L35.06,56.3a3.784,3.784,0,0,1-5.358,0Z" transform="translate(-2 -2)" fill="url(#linear-gradient)"/>
-</svg>
