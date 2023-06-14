@@ -1,7 +1,7 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
-  assetsDir: 'assets',
+  assetsDir: "assets",
   css: {
     loaderOptions: {
       sass: {
@@ -15,36 +15,38 @@ module.exports = {
       },
     },
   },
-  publicPath: '',
-  outputDir: '../backend/src/main/resources/static',
+  publicPath: "",
+  outputDir: path.resolve(__dirname, "./dist"),
   devServer: {
     port: 3000,
     overlay: false,
     watchOptions: {
-      ignored: '**/node_modules',
+      ignored: "**/node_modules",
     },
   },
   configureWebpack: {
-    devtool: 'source-map',
+    devtool: "source-map",
   },
-  chainWebpack: (config) => {
-    config.output.filename('js/[name].js');
-    config.plugin('html').tap((args) => {
+  chainWebpack: config => {
+    config.output.filename("js/[name].js");
+    config.plugin("html").tap(args => {
       // eslint-disable-next-line no-param-reassign
-      args[0].title = 'Community';
+      args[0].title = "Community";
       return args;
     });
-    const types = ['vue-modules', 'vue', 'normal-modules', 'normal'];
-    types.forEach((type) => addStyleResource(config.module.rule('stylus').oneOf(type)));
+    const types = ["vue-modules", "vue", "normal-modules", "normal"];
+    types.forEach(type =>
+      addStyleResource(config.module.rule("stylus").oneOf(type))
+    );
   },
-  transpileDependencies: ['vuetify'],
+  transpileDependencies: ["vuetify"],
 };
 
 function addStyleResource(rule) {
   rule
-    .use('style-resource')
-    .loader('style-resources-loader')
+    .use("style-resource")
+    .loader("style-resources-loader")
     .options({
-      patterns: [path.resolve(__dirname, './src/styles/imports.styl')],
+      patterns: [path.resolve(__dirname, "./src/styles/imports.styl")],
     });
 }
