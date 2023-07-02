@@ -9,4 +9,5 @@ cd dist
 git init
 git add -A
 git commit -m 'New Deployment'
-git push -f
+git push -f 'https://github.com/zzuccumi/vue_popol.git master:gh-pages'
+cd -
