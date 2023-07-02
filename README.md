@@ -20,7 +20,6 @@ $ npm run serve
 - vue-cli 3
 
 ## ● Structure
-![image](./src/assets/images/structure.png)
 
 - assets : fonts, icons, images, styles 등 자산파일(assets files)
 - components : vue components 개발
@@ -44,7 +43,3 @@ $ npm run serve
 2. 애플리케이션 규모, 도메인 특성에 맞춰 구조 변경 필요
 3. 더 복잡하고 큰 규모의 애플리케이션일 경우 common 디렉토리로 공통 기능 묶어서 관리 및 도메인별 폴더 생성하여 구조 관리 필요
 
-## ● Etc
-1. 해당 repo의 sample 코드는 [유수영](https://github.com/SuyeongYoo) 님의 [Standard Spring Boot Structure](https://github.com/SuyeongYoo/fw.boot) 와 연동 테스트 할 수 있도록 구현하였습니다.
-
-# ※ ver 0.1 로컬 환경 구성 기준
