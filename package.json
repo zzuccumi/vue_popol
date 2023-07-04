@@ -1,5 +1,5 @@
 {
-  "homepage": "https://zzuccumi.github.io/awesome-bin/",
+  "homepage": "https://zzuccumi.github.io/vue_popol/",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +17,7 @@
     "bootstrap": "^5.1.3",
     "bootstrap-vue": "^2.22.0",
     "core-js": "^3.6.5",
+    "gh-pages": "^5.0.0",
     "vue": "^2.6.14",
     "vue-codemirror": "^4.0.6",
     "vue-ctk-date-time-picker": "^3.0.0-alpha.0",

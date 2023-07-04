@@ -16,7 +16,7 @@ module.exports = {
     },
   },
   publicPath: "/vue_portfolio/",
-  outputDir: path.resolve(__dirname, "./dist"),
+  outputDir: "docs",
   devServer: {
     port: 3000,
     overlay: false,
