@@ -15,7 +15,7 @@ module.exports = {
       },
     },
   },
-  publicPath: "/vue_portfolio/",
+  publicPath: "/vue_popol/",
   outputDir: "docs",
   devServer: {
     port: 3000,
