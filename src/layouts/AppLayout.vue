@@ -5,7 +5,7 @@
       <div class="container">
         <Header></Header>
         <component :is="layout">
-              <slot />
+          <slot />
         </component>
       </div>
       <footer>
@@ -27,7 +27,7 @@ export default {
     // AppLayoutLinks,
   },
   data: () => ({
-    snb_open: false,
+    // snb_open: false,
   }),
   computed: {
     layout() {
@@ -46,7 +46,7 @@ export default {
 
 <style lang="scss" scoped>
 footer {
-  height: 90px;
+  height: 78px;
   display: flex;
   position: absolute;
   border: 0;
@@ -54,16 +54,19 @@ footer {
   bottom: 0;
   align-items: center;
   justify-content: flex-end;
+
   div {
     width: calc(100% - 265px);
     transition-duration: 0.2s;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: transform, visibility, width;
   }
+
   p {
     margin-bottom: 0;
   }
 }
+
 .wrapper.snb_open {
   footer {
     div {
@@ -74,9 +77,11 @@ footer {
     }
   }
 }
+
 .snb_wrapper {
   position: relative;
 }
+
 .snb_btn {
   position: absolute;
   top: 36px;
@@ -91,8 +96,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+
   &:focus:not(:focus-visible) {
     outline: 7px solid #f5f5f9 !important;
   }
-}
-</style>
+}</style>

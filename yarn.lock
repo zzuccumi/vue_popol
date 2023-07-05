@@ -920,10 +920,48 @@
     "exec-sh" "^0.3.2"
     "minimist" "^1.2.0"
 
+"@fortawesome/fontawesome-common-types@6.4.0":
+  "integrity" "sha512-HNii132xfomg5QVZw0HwXXpN22s7VBHQBv9CeOu9tfJnhsWQNd2lmTNi8CSrnw5B+5YOmzu1UoPAyxaXsJ6RgQ=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.4.0.tgz"
+  "version" "6.4.0"
+
 "@fortawesome/fontawesome-free@^5.15.4":
   "integrity" "sha512-eYm8vijH/hpzr/6/1CJ/V/Eb1xQFW2nnUKArb3z+yUWv7HTwj6M7SP957oMjfZjAHU6qpoNc2wQvIxBLWYa/Jg=="
   "resolved" "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.15.4.tgz"
   "version" "5.15.4"
+
+"@fortawesome/fontawesome-svg-core@^6.4.0", "@fortawesome/fontawesome-svg-core@~1 || ~6":
+  "integrity" "sha512-Bertv8xOiVELz5raB2FlXDPKt+m94MQ3JgDfsVbrqNpLU9+UE2E18GKjLKw+d3XbeYPqg1pzyQKGsrzbw+pPaw=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.4.0.tgz"
+  "version" "6.4.0"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.4.0"
+
+"@fortawesome/free-brands-svg-icons@^6.4.0":
+  "integrity" "sha512-qvxTCo0FQ5k2N+VCXb/PZQ+QMhqRVM4OORiO6MXdG6bKolIojGU/srQ1ptvKk0JTbRgaJOfL2qMqGvBEZG7Z6g=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-6.4.0.tgz"
+  "version" "6.4.0"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.4.0"
+
+"@fortawesome/free-regular-svg-icons@^6.4.0":
+  "integrity" "sha512-ZfycI7D0KWPZtf7wtMFnQxs8qjBXArRzczABuMQqecA/nXohquJ5J/RCR77PmY5qGWkxAZDxpnUFVXKwtY/jPw=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-6.4.0.tgz"
+  "version" "6.4.0"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.4.0"
+
+"@fortawesome/free-solid-svg-icons@^6.4.0":
+  "integrity" "sha512-kutPeRGWm8V5dltFP1zGjQOEAzaLZj4StdQhWVZnfGFCvAPVvHh8qk5bRrU4KXnRRRNni5tKQI9PBAdI6MP8nQ=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-6.4.0.tgz"
+  "version" "6.4.0"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.4.0"
+
+"@fortawesome/vue-fontawesome@^2.0.10":
+  "integrity" "sha512-OTETSXz+3ygD2OK2/vy82cmUBpuJqeOAg4gfnnv+f2Rir1tDIhQg026Q3NQxznq83ZLz8iNqGG9XJm26inpDeg=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/vue-fontawesome/-/vue-fontawesome-2.0.10.tgz"
+  "version" "2.0.10"
 
 "@hapi/address@2.x.x":
   "integrity" "sha512-QD1PhQk+s31P1ixsX0H0Suoupp3VMXzIVMSwobR3F3MSUO2YCV0B7xqLcUw/Bh8yuvd3LhpyqLQWTNcRmp6IdQ=="
@@ -9616,6 +9654,11 @@
   dependencies:
     "node-forge" "^0.10.0"
 
+"semantic-ui-vue@^0.11.0":
+  "integrity" "sha512-wQE7zn7TIOPbLzbUp5hhIzivEkV6qk/i+Vc/BCQCQH7thF7UWqsEAcWWrlskwMTD48uoqGGUHIEN+kxsy0W3mA=="
+  "resolved" "https://registry.npmjs.org/semantic-ui-vue/-/semantic-ui-vue-0.11.0.tgz"
+  "version" "0.11.0"
+
 "semver@^5.5.0":
   "integrity" "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ=="
   "resolved" "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz"
@@ -11096,10 +11139,10 @@
     "vue-hot-reload-api" "^2.3.0"
     "vue-style-loader" "^4.1.0"
 
-"vue-material-design-icons@^5.0.0":
-  "integrity" "sha512-lYSJFW/TyQqmg7MvUbEB8ua1mwWy/v8qve7QJuA/UWUAXC4/yVUdAm4pg/sM9+k5n7VLckBv6ucOROuGBsGPDQ=="
-  "resolved" "https://registry.npmjs.org/vue-material-design-icons/-/vue-material-design-icons-5.0.0.tgz"
-  "version" "5.0.0"
+"vue-material-design-icons@^5.2.0":
+  "integrity" "sha512-fcdcJHQ9fQw2CAytuLAzWSELcxH138sCdMItVhvmO7Lu9afIgojB/UCWv7XHt/lURsnq/n6O+muM4AQgw8yfig=="
+  "resolved" "https://registry.npmjs.org/vue-material-design-icons/-/vue-material-design-icons-5.2.0.tgz"
+  "version" "5.2.0"
 
 "vue-material-icon@^1.0.1":
   "integrity" "sha512-4zxk/cJb1YWVJr6f7C2YyV26w5kKd3WETFygvK551rD7qBbMrRI3GDFAouUbMX/WrPGOJKtTun+gazGZTC0gFw=="
@@ -11137,7 +11180,7 @@
   "resolved" "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@*", "vue@^2 || ^3.0.0-0", "vue@^2.0.0", "vue@^2.5.0", "vue@^2.5.18", "vue@^2.6.14", "vue@^2.6.4", "vue@^2.x", "vue@2.x":
+"vue@*", "vue@^2 || ^3.0.0-0", "vue@^2.0.0", "vue@^2.5.0", "vue@^2.5.18", "vue@^2.6.14", "vue@^2.6.4", "vue@^2.x", "vue@~2", "vue@2.x":
   "integrity" "sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-2.6.14.tgz"
   "version" "2.6.14"

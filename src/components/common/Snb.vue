@@ -9,13 +9,8 @@
         </div>
 
         <v-list>
-          <v-list-group
-            v-for="item in items"
-            :key="item.title"
-            v-model="item.active"
-            :prepend-icon="item.action"
-            no-action
-          >
+          <v-list-group v-for="item in items" :key="item.title" v-model="item.active" :prepend-icon="item.action"
+            no-action>
             <template v-slot:activator>
               <v-list-item-content>
                 <img :src="item.iconUrl" class="nav_menu_icon" />
@@ -152,8 +147,6 @@ export default {
 </script>
 
 <style lang="scss" scope>
-
-
 // scss 시작
 .wrapper {
   .snb {
@@ -165,7 +158,8 @@ export default {
     width: 260px !important;
     z-index: 10;
     position: relative;
-    > button {
+
+    >button {
       position: absolute;
       top: 36px;
       right: -13px;
@@ -178,11 +172,13 @@ export default {
       z-index: 10;
     }
   }
+
   .snb_header {
     visibility: visible;
     // transition-duration: .2s;
     height: 24px;
     margin-bottom: 40px;
+
     h2 {
       font-family: "SCDream";
       font-size: $ft20;
@@ -194,6 +190,7 @@ export default {
       color: $black01;
     }
   }
+
   .container {
     width: calc(100% - 265px);
     max-width: none;
@@ -201,38 +198,46 @@ export default {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: transform, visibility, width;
   }
+
   .v-sheet.v-card {
     height: 100%;
     background-color: transparent !important;
   }
+
   .v-navigation-drawer {
     border-radius: 0 16px 16px 0 !important;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
     overflow: hidden;
     width: 260px !important;
   }
+
   .v-navigation-drawer__content {
     // position: relative;
     padding: 34px 17px;
   }
+
   .v-list-group__header {
     padding: 8px 12px;
     border-radius: 6px;
     max-height: 40px;
     transition: 0.2s;
+
     &:hover {
       background: $blue03 !important;
       transition: 0.2s;
     }
   }
+
   .v-list-item__icon {
     margin: 0 !important;
     height: 100%;
     align-self: center;
   }
+
   .v-list-item .v-list-item__content {
     padding: 0;
-    > .v-list-item__title {
+
+    >.v-list-item__title {
       font-family: "SCDream";
       font-weight: normal;
       font-stretch: normal;
@@ -243,18 +248,22 @@ export default {
       margin-left: 10px;
     }
   }
+
   .v-list-item .v-list-item__content img {
     width: 24px;
     height: 24px;
   }
-  .v-list-item__content > * {
+
+  .v-list-item__content>* {
     flex: none;
   }
+
   .v-list {
     .v-list-group {
       &:nth-child(8) {
         margin-top: 120px;
         position: relative;
+
         .v-list-item__content {
           h3 {
             position: absolute;
@@ -268,17 +277,21 @@ export default {
             text-align: left;
             padding: 22px 11px 13px 11px;
             border-top: 1px solid $gray02;
+
             &::after {
               display: none;
             }
           }
         }
       }
+
       .v-list-item {
         min-height: 40px !important;
+
         .v-list-item__content {
           padding: 0;
-          > .v-list-item__title {
+
+          >.v-list-item__title {
             font-family: "SCDream";
             font-weight: normal;
             font-stretch: normal;
@@ -289,20 +302,25 @@ export default {
             margin-left: 10px;
           }
         }
+
         .nav_menu_icon {
           display: inline-block;
         }
+
         .nav_menu_iconon {
           display: none;
         }
       }
-      > .v-list-item {
+
+      >.v-list-item {
         margin-bottom: 5px !important;
       }
+
       .v-list-item--active {
         background: $blue03;
         position: relative;
         color: $blue01;
+
         ::after {
           position: absolute;
           content: '';
@@ -315,24 +333,30 @@ export default {
           border-radius: 4px;
           z-index: -10;
         }
+
         .nav_menu_icon {
           display: none;
         }
+
         .nav_menu_iconon {
           display: inline-block;
         }
+
         .v-list-item__content {
           .v-list-item__title {
             color: $blue01;
           }
         }
       }
+
       .v-list-group__items {
         display: block;
         padding: 17px 23px 23px 23px;
+
         .v-list-item {
           position: relative;
           padding: 0 0px 0 40px;
+
           &::before {
             position: absolute;
             content: '';
@@ -346,8 +370,10 @@ export default {
             opacity: 1 !important;
           }
         }
+
         .v-list-item--active {
           background: transparent;
+
           &::before {
             background: $blue01;
             outline: 3px solid $blue05;
@@ -357,10 +383,12 @@ export default {
       }
     }
   }
+
   .nav_menu_iconmini {
     display: none;
   }
 }
+
 .wrapper.snb_open {
   .snb {
     width: 114px !important;
@@ -368,10 +396,12 @@ export default {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: transform, visibility, width;
   }
+
   .snb_header {
     visibility: hidden;
     // transition-duration: .2s;
   }
+
   .container {
     width: 100%;
     max-width: none;
@@ -380,48 +410,59 @@ export default {
     transition-property: transform, visibility, width;
     padding: 0;
   }
+
   .v-list-item__title {
     display: none;
   }
+
   .v-list-group .v-list-group__header .v-list-item__icon.v-list-group__header__append-icon {
     display: none;
   }
+
   .v-list {
     .v-list-group {
       &:nth-child(8) {
         margin-top: 0px;
         position: relative;
+
         .v-list-item__content {
           h3 {
             display: none;
+
             &::after {
               display: none;
             }
           }
         }
       }
+
       .v-list-group__header {
         &:hover {
           background: transparent !important;
         }
       }
+
       .v-list-item {
         min-height: 40px !important;
+
         .v-list-item__content {
           padding: 0;
           flex: none;
         }
+
         .nav_menu_icon {
           display: none;
           width: 40px;
           height: 40px;
         }
+
         .nav_menu_iconon {
           display: block;
           width: 40px;
           height: 40px;
           z-index: 100;
         }
+
         .nav_menu_iconmini {
           display: none;
           width: 40px;
@@ -429,22 +470,27 @@ export default {
           z-index: 100;
         }
       }
-      > .v-list-item {
+
+      >.v-list-item {
         margin-bottom: 40px !important;
         display: flex;
         align-items: center;
         justify-content: center;
       }
+
       .v-list-group__items {
         display: none;
       }
+
       .v-list-item {
         .nav_menu_icon {
           display: none;
         }
+
         .nav_menu_iconon {
           display: none;
         }
+
         .nav_menu_iconmini {
           display: block;
           width: 40px;
@@ -452,10 +498,12 @@ export default {
           z-index: 100;
         }
       }
+
       .v-list-item--active {
         background: transparent;
         position: relative;
         color: $blue01;
+
         ::after {
           position: absolute;
           content: '';
@@ -469,12 +517,15 @@ export default {
           z-index: -10;
           transition: 0.2s;
         }
+
         .nav_menu_icon {
           display: none;
         }
+
         .nav_menu_iconon {
           display: block;
         }
+
         .nav_menu_iconmini {
           display: none;
           width: 40px;

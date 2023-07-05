@@ -16,7 +16,10 @@ import VueGoodTablePlugin from 'vue-good-table';
 import MenuIcon from 'vue-material-design-icons/Menu.vue';
 // import VueCtkDateTimePicker from 'vue-ctk-date-time-picker';
 
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
+import {
+  BootstrapVue,
+  IconsPlugin
+} from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import 'vuetify-dialog/dist/vuetify-dialog.css';
@@ -47,7 +50,7 @@ Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 Vue.use(VueGoodTablePlugin);
 
-Vue.config.productionTip = false;
+Vue.config.productionTip = false
 
 new Vue({
   router,
