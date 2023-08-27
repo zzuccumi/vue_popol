@@ -19,7 +19,7 @@ const routes = [{
     name: 'Home',
     component: Home,
     meta: {
-      layout: 'AppLayoutHome',
+      layout: 'AppLayoutPopol',
     },
   },
   {
