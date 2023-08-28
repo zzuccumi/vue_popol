@@ -5,7 +5,7 @@
 
 <script>
 export default {
-  name: 'AppLayoutHome',
+  name: 'SectionPopol',
   components: {},
   data: () => ({
     group: null,

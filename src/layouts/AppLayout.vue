@@ -2,8 +2,8 @@
   <!--  <AppHeader></AppHeader>-->
   <main>
     <div class="wrapper snb_open">
+      <Header></Header>
       <div class="container">
-        <Header></Header>
         <component :is="layout">
           <slot />
         </component>
@@ -100,4 +100,5 @@ footer {
   &:focus:not(:focus-visible) {
     outline: 7px solid #f5f5f9 !important;
   }
-}</style>
+}
+</style>

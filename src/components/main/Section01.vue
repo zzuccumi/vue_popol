@@ -31,7 +31,7 @@
 
 <script>
 export default {
-  name: 'AppLayoutHome',
+  name: 'SectionHome',
   components: {},
   data: () => ({
     group: null,
