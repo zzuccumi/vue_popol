@@ -18,12 +18,39 @@
                 <ol><a href="">Popups</a></ol>
             </ul>
         </div>
+
+        <div class="cd_wrapper">
+            <div class="cd-container">
+                <div class="cd" :style="{ animationDuration: speed + 's' }"></div>
+            </div>
+            <label for="speed">속도 조절: </label>
+            <input type="range" id="speed" v-model="speed" min="1" max="10">
+        </div>
     </div>
 </template>
 
 <script>
 export default {
     name: 'AboutMe',
+    data: {
+        speed: 5, // 초기 속도
+    },
+    computed: {
+        cdRotationStyle() {
+            return {
+                transform: 'rotate(' + this.calculateRotation() + 'deg)',
+            };
+        },
+    },
+    methods: {
+        calculateRotation() {
+            const duration = 10; // 애니메이션 한 바퀴를 완료하는데 걸리는 시간 (초)
+            const totalRotation = 360; // 총 회전 각도 (한 바퀴)
+            const rotationPerSecond = totalRotation / duration;
+            return this.speed * rotationPerSecond;
+        },
+    },
 };
+
 </script>
 
