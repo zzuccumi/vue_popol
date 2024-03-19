@@ -61,6 +61,187 @@ export default {
         prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
         prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
       },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'MSA Maker',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2023',
+        className: 'prj03',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'SK Marketplace',
+        technical: 'publishing 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2021',
+        className: 'prj04',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: '한전KDN',
+        technical: 'publishing & design 100% / hardcoding / css / responsive',
+        progress: 100,
+        subtitle: '2021',
+        className: 'prj05',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: '부산시티패스',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2020',
+        className: 'prj06',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'MSA Maker',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2023',
+        className: 'prj02',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'MSA Maker',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2023',
+        className: 'prj02',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'MSA Maker',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2023',
+        className: 'prj02',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'MSA Maker',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2023',
+        className: 'prj02',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'MSA Maker',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2023',
+        className: 'prj02',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'MSA Maker',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2023',
+        className: 'prj02',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'MSA Maker',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2023',
+        className: 'prj02',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'MSA Maker',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2023',
+        className: 'prj02',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'MSA Maker',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2023',
+        className: 'prj02',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'MSA Maker',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2023',
+        className: 'prj02',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'MSA Maker',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2023',
+        className: 'prj02',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'MSA Maker',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2023',
+        className: 'prj02',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'MSA Maker',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2023',
+        className: 'prj02',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+      {
+        // items: [{ title: 'List Item' }],
+        title: 'MSA Maker',
+        technical: 'publishing & design 100% / vue / scss / responsive',
+        progress: 100,
+        subtitle: '2023',
+        className: 'prj02',
+        prjUrl: 'https://awesomebin.netlify.app/html/sub15.html',
+        prjGit: 'https://awesomebin.netlify.app/html/sub15.html'
+      },
+
     ]
   }),
 };

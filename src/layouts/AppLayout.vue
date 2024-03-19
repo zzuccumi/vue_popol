@@ -48,7 +48,8 @@ export default {
 footer {
   height: 78px;
   display: flex;
-  position: absolute;
+  position: fixed;
+  bottom: 0;
   border: 0;
   background: #fff;
   bottom: 0;

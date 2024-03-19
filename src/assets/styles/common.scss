@@ -11,6 +11,24 @@
 // }
 
 // 제거 start
+*,
+ol,
+ul {
+  padding: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 .v-navigation-drawer--close {
   visibility: visible;
@@ -1002,7 +1020,7 @@ button.orange {
   flex-direction: column;
   height: 100vh;
   padding: 0;
-  margin-top: 78px;
+  margin-top: 0px;
 
   .popol {
     margin-top: 78px;
@@ -1083,9 +1101,11 @@ button.orange {
 
   .section01 {
     height: 100vh;
+    align-items: center;
+    justify-content: center;
 
     .slide {
-      height: calc(100vh - 156px) !important;
+      height: 100% !important;
 
       .v-image {
         height: 100% !important;
@@ -1158,6 +1178,125 @@ button.orange {
             }
           }
         }
+      }
+    }
+  }
+
+  .section02 {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    .left_box {
+      position: relative;
+      display: block;
+      width: 600px;
+      height: 600px;
+      border: 1px solid blue;
+
+      h3 {}
+
+      .cover {
+        ul {
+          position: absolute;
+          top: 50%;
+          right: 50%;
+          /* display: flex; */
+          transform: translate(-50%, -50%);
+          width: 100px;
+          height: 100%;
+
+          li {
+            position: absolute;
+
+            a {
+              // font-family: "Josefin Sans", sans-serif;
+              // font-optical-sizing: auto;
+              // font-weight: normal;
+              // font-style: normal;
+
+              font-family: "DM Serif Display", serif;
+              font-weight: 400;
+              font-style: normal;
+            }
+
+            &:nth-child(1) {
+              top: 20%;
+              left: 0;
+            }
+
+            &:nth-child(2) {
+              top: 40%;
+              left: 10%;
+            }
+
+            &:nth-child(3) {
+              top: 60%;
+              left: 0;
+            }
+
+            &:nth-child(4) {
+              top: 80%;
+              left: 0;
+            }
+          }
+        }
+      }
+
+      .album {
+        height: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 350px;
+        height: 350px;
+        transform: translate(-50%, -50%);
+        background: radial-gradient(circle, #ff7e5f, #feb47b, #ffed89, #c7ff8e, #86f5ff, #d0c5f9, #ffb8e2, #ff87ab, #ff87ab, #ff7e5f);
+        border-radius: 50%;
+        box-shadow: 0 0px 9px 2px rgba(0, 0, 0, 0.1);
+        // animation: rotate 4s linear infinite;
+
+        &:hover {
+          animation-play-state: paused;
+        }
+
+        @keyframes rotate {
+          from {
+            transform: translate(-50%, -50%) rotate(0deg);
+          }
+
+          to {
+            transform: translate(-50%, -50%) rotate(360deg);
+          }
+        }
+
+        span {
+          width: 100px;
+          height: 100px;
+          background-color: #E9F3FF;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          border-radius: 50%;
+          transform: translate(-50px, -50px);
+          box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.1);
+          /* 내부 그림자 설정 */
+        }
+      }
+
+    }
+
+    .right_box {
+      width: calc(100% - 600px);
+      border: 1px solid green;
+      height: 600px;
+
+      .container_play {
+        height: 400px;
+        overflow-y: scroll;
+
+        .section {}
       }
     }
   }
